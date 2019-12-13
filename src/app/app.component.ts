@@ -1,4 +1,4 @@
-import { Component, OnInit,ViewEncapsulation} from '@angular/core';
+import { Component, OnInit, ViewEncapsulation} from '@angular/core';
 import { AppService } from './app.service';
 import { CardModel , ButtonList , List } from './model/group.enum';
 import { ToastService } from 'ng-zorro-antd-mobile';
