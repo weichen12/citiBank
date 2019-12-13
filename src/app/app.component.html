@@ -1,0 +1,38 @@
+<!-- NG-ZORRO-MOBILE -->
+<div class="container">
+<!-- navBar组件 -->
+<app-navbar></app-navbar>
+<!-- 选择事件拉取数据 -->
+<div class="pickerBox">
+    <List [className]="'date-picker-list'">
+        <ListItem
+          DatePicker
+          [extra]="currentDateFormat(value, 'yyyy-mm')"
+          [arrow]="'horizontal'"
+          [mode]="'month'"
+          [(ngModel)]="value"
+          (onOk)="onOk($event)"
+        >
+          <!-- <Brief>{{ name }}</Brief> -->
+        </ListItem>
+    </List>
+</div>
+<!-- card -->
+<app-card-box [card] = "card" ></app-card-box>
+<!-- buttonList组件 -->
+<WingBlank>
+  <app-button  [buttonList] = 'buttonList' (outerButton)="getCick($event)"></app-button>
+</WingBlank>
+<div class="listBox">
+  <WingBlank>
+    <div class="title">
+      <span class="listTitle">今天</span>
+      <span >刷新</span>
+    </div>
+  </WingBlank>
+  <app-list [list]='list'>  </app-list>
+</div>
+</div>
+
+
+

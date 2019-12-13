@@ -1,0 +1,35 @@
+.cardBox{
+  padding:10px 0px;
+}
+.card{
+  background: #ffa312;
+  height: 100px;
+  color:#fff;
+  font-size: 12px;
+  padding:14px 18px;
+  border-radius: 10px;
+}
+.month{
+  font-size:16px;
+  font-weight: 600;
+}
+.money{
+  float: right;
+}
+.moneyBox{
+  display: flex;
+  padding-top: 16px;
+}
+.payBox{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+}
+.num{
+  font-size: 18px;
+  padding-top: 14x;
+  font-weight: 600;
+}
+.lookmore{
+  padding-top: 10px;
+}

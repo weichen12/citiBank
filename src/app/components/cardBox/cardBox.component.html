@@ -1,0 +1,25 @@
+<div class='cardBox'>
+  <WingBlank>
+    <div class="card">
+      <div class="time">
+        <span class="month" >{{card.month}}/</span>
+        <span class="year" >{{card.year}}</span>
+        <span class="money">余额:¥{{card.accountBalance}}</span>
+      </div>
+      <div class="moneyBox">
+        <div class="payBox">
+           <span class="moneyTitle">支出</span>
+           <div class="num">¥{{card.pay}}</div>
+        </div>
+        <div class="payBox">
+          <span class="moneyTitle">收入</span>
+          <div class="num">¥{{card.income}}</div>
+        </div>
+      </div>
+      <div class="lookmore" (click)="goSet()">
+        预算：您还未设置预算>
+      </div>
+
+    </div>
+  </WingBlank>
+</div>

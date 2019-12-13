@@ -1,0 +1,12 @@
+<div class="list">
+  <div class="listItem" (click)="lookBillDetail(item.title)" *ngFor="let item of list">
+    <img src="{{item.iconSrc}}" alt="">
+    <div class="buyDetail"  >
+       <div class="name">{{item.title}}</div>
+       <div class="detail">
+         {{item.detail}}
+       </div>
+    </div>
+    <div class="num">{{item.money}}</div>
+  </div>
+</div>

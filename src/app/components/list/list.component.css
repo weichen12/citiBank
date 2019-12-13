@@ -1,0 +1,27 @@
+.list{
+  background: #fff;
+}
+
+.listItem{
+  border-bottom: 2px solid #f7f7f7;
+  display: flex;
+  align-items: center;
+  padding:8px 15px;
+}
+.listItem img{
+   height: 30px;
+   width: 30px;
+}
+.buyDetail{
+  flex: 1;
+  padding-left: 15px;
+}
+.name{
+  font-size: 14px;
+  color: #123;
+  padding-bottom: 4px;
+}
+.num{
+  font-size: 18px;
+  font-weight: 500;
+}
