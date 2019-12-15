@@ -6,8 +6,13 @@ body,.container{
   .am-list-arrow{
     transform: rotate(90deg);
   }
+  .am-list{
+    flex: 1;
+  }
   .date-picker-list{
-    width: 200px;
+    .am-list, .am-list-body, .am-list-item{
+      width:100%;
+    }
     .am-list-content{
       display: none;
     }
